@@ -17,10 +17,10 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('\nHello! Let\'s explore some US bikeshare data!')
 
     # get user input for city (chicago, new york city, washington).
-    print("Enter the name of the city to analyze (Chicago, New York City or Washington)")
+    print("\nEnter the name of the city to analyze (Chicago, New York City or Washington)")
     input_city = input()
     cities = ['chicago', 'new york city', 'washington']
     while True:
@@ -35,7 +35,7 @@ def get_filters():
     def get_month():
         """Gets the user input for month and validates it."""
 
-        print("Which month? January, February, March, April, May or June?")
+        print("\nWhich month? January, February, March, April, May or June?")
         input_month = input()
         months = ['january', 'february', 'march', 'april', 'may', 'june']
         while True:
@@ -48,7 +48,7 @@ def get_filters():
     def get_day():
         """Gets the user input for day of week and validates it."""
 
-        print("Which day? Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, or Saturday?")
+        print("\nWhich day? Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, or Saturday?")
         input_day = input()
         days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
         while True:
@@ -60,7 +60,7 @@ def get_filters():
 
     # get user input for month (january, february, ... june)
     # get user input for day of week (sunday, monday, tuesday, ... saturday)
-    print('Would you like to filter the data by month, day, both, or not at all? Type "none" for no time filter.')
+    print('\nWould you like to filter the data by month, day, both, or not at all? Type "none" for no time filter.')
     user_input = input()
     while True:
         if user_input.lower().strip() == 'none':
@@ -247,7 +247,7 @@ def display_raw_data(df, city):
                 print(df.iloc[i:i+5,1:7])
             else:
                 print(df.iloc[i:i+5,1:9])
-            print("Would you like to see the next 5 rows? Enter yes or no.")
+            print("\nWould you like to see the next 5 rows? Enter yes or no.")
             i += 5
         else:
             print("Invalid entry. Enter yes or no.")
