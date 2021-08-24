@@ -9,7 +9,7 @@ Explore US Bike Share data
 The project explores the bike share use in Chicago, New York City and
 Washington by computing a variety of descriptive statistics.
 
-###### User Input
+##### User Input
 The project requires the user to input the city (Chicago, New York City or
 Washington), month and day of week (dow). Month and dow are optional; if no
 specific month or dow is provided, no filter is applied and output is provided
@@ -18,22 +18,22 @@ for all months / days of week.
 Based on the user input, the code computes and provides the following information
 for one of the three cities:
 
-###### 1. Popular times of travel (i.e., occurs most often in the start time)
+##### 1. Popular times of travel (i.e., occurs most often in the start time)
 * most common month
 * most common day of week
 * most common hour of day
 
-###### 2. Popular stations and trip
+##### 2. Popular stations and trip
 * most common start station
 * most common end station
 * most common trip from start to end (i.e., most* frequent combination of start
 station and end station)
 
-###### 3. Trip duration
+##### 3. Trip duration
 * total travel time
 * average travel time
 
-###### 4. User info
+##### 4. User info
 * counts of each user type
 * counts of each gender (only available for NYC and Chicago)
 * earliest, most recent, most common year of birth (only available for NYC and Chicago)
