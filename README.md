@@ -9,6 +9,12 @@ Explore US Bike Share data
 The project explores the bike share use in Chicago, New York City and
 Washington by computing a variety of descriptive statistics.
 
+###### User Input
+The project requires the user to input the city (Chicago, New York City or
+Washington), month and day of week (dow). Month and dow are optional; if no
+specific month or dow is provided, no filter is applied and output is provided
+for all months / days of week.
+
 Based on the user input, the code computes and provides the following information
 for one of the three cities:
 
