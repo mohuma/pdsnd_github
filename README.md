@@ -38,6 +38,10 @@ station and end station)
 * counts of each gender (only available for NYC and Chicago)
 * earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
+After displaying the descriptive statistics, the script asks user if they want
+to see five lines of raw data. Based on user input, raw data is displayed 5
+lines at a time until the user chooses 'no'.
+
 ### Files used
 - chicago.csv
 - new_york_city.csv
