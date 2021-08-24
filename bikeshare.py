@@ -267,6 +267,12 @@ def main():
         display_raw_data(df, city)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
+        while True:
+            if restart.lower().strip() == 'yes' or restart.lower().strip() == 'no':
+                break
+            else:
+                print("Invalid entry. Enter yes or no.")
+            restart = input()
 
         if restart.lower().strip() != 'yes':
             break
